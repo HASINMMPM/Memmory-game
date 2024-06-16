@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const gameIcons = ["😍", "😱", "👀"]; //, "😁", "❤", "✌", "🎁", "✨", "🎈", "👑"];
+const gameIcons = ["😍", "😱", "👀", "😁", "❤", "✌", "🎁", "✨", "🎈", "👑"];
 
 const Card = () => {
   const [card, setCard] = useState([]);
