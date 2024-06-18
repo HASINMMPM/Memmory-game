@@ -167,7 +167,7 @@ font-size: 3rem;
 .container{
   display: grid;
   grid-template-columns: repeat(5 , 2fr);
-  
+  padding: 1rem;
   gap: 1rem;
 }
 main{
@@ -179,21 +179,50 @@ main{
   color: #ff9966 ;
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 1000px){
   .container{
     grid-template-columns: repeat(4,1fr);
+    padding: 1rem;
   }
+  card
 
 }
-@media screen and (max-width: 650px){
-  .container{
-    grid-template-columns: repeat(3,1fr);
+@media screen and (max-width: 750px){
+  .card{
+    width: 100px;
+    height: 100px;
+    
   }
+  .front-content span {
+
+    font-size: 2rem;
+    
+    }
 
 }
 @media screen and (max-width: 550px){
   .container{
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(4,1fr);
+  }
+  .card{
+    width: 75px;
+    height: 75px;
   }
 
 }
+@media screen and (max-width: 370px){
+  .container{
+    grid-template-columns: repeat(3,1fr);
+  }
+  .card{
+    width: 75px;
+    height: 75px;
+  }
+  .front-content span {
+
+    font-size: 1.5rem;
+    
+    }
+
+}
+
