@@ -4,7 +4,7 @@ const gameIcons = ["😍", "😱", "👀", "😁", "❤", "✌", "🎁", "✨", 
 
 const Card = () => {
   const [card, setCard] = useState([]);
-  const [disableClicks, setDisableClicks] = useState(false); // To prevent clicking more than two cards
+  const [disableClicks, setDisableClicks] = useState(false); 
 
   const startGame = () => {
     const duplicateIcons = [...gameIcons, ...gameIcons];
